@@ -353,3 +353,26 @@ footer{
         flex-direction: column;
     }
 }
+/* ===== REDES SOCIAIS ===== */
+
+.social {
+    margin-top: 15px;
+}
+
+.social a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #24292e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.social a:hover {
+    background: #000000;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
